@@ -1,6 +1,9 @@
-import java.awt.event.MouseEvent;
-//import java.util.concurrent.TimeUnit;
+/**
+* Author: Peng
+* Copyright 2018
+*/
 
+import java.awt.event.MouseEvent;
 import junit.framework.TestCase;
 
 public class MouseTest extends TestCase {
@@ -13,8 +16,6 @@ public class MouseTest extends TestCase {
 		Tile[][] t = p.tiles;
 
 		SlidingPuzzleApp app = new SlidingPuzzleApp(m);
-//		app.setVisible(true);
-
 		PuzzleView view = new PuzzleView(m.getPuzzle());
 
 		//create a event
