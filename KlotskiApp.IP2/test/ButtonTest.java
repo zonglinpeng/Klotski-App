@@ -1,3 +1,8 @@
+/**
+* Author: Peng
+* Copyright 2018
+*/
+
 import junit.framework.TestCase;
 
 public class ButtonTest extends TestCase {
